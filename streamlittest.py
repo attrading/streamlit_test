@@ -58,6 +58,7 @@ if st.button("Get Data"):
         ''
         st.write(revenue_estimate)
         ''
+        st.write(news)
 
     except Exception as e:
         st.write(e)
